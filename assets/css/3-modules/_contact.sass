@@ -1,0 +1,53 @@
+
+
+
+.section-contact
+	text-align: center
+h3
+	@extend %small-bold
+	color: $accent
+	text-align: center
+	padding: 50px 0 30px 
+
+
+.social-links
+	max-width: 700px
+	margin: 0px auto 50px
+	+display(flex)
+	+justify-content(space-around)
+	+flex-wrap(wrap)
+	
+	
+	a
+		display: block
+		background: $accent
+		+size(50px)
+		text-align: center
+		line-height: 50px
+		color: white
+		border-radius: 50%
+		font-size: 28px
+		margin: 20px
+		+transition()
+		&:hover
+	 		+transform(scale(1.2))
+
+.bar
+	width: 250px
+	height: 3px
+	margin-top: 4px solid $accent
+	margin: 0px auto 50px
+	color: $accent
+	background-color: $accent
+
+.biglink
+	display: inline-block
+	font:
+		size: 40px
+		weight: 300
+	line-height: 3
+	color: $accent
+	+transition()
+	&:hover
+		color: $accent
+		+transform(scale(1.2))

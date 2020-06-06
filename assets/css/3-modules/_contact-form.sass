@@ -1,0 +1,52 @@
+form 
+    max-width: 450px
+    margin: 0 auto 50px
+
+    input, textarea
+        border: 3px solid $accent
+        width: 100%
+        +box-sizing(border-box)
+        padding: 10px
+        &:focus
+            outline: none
+            border-color: $accent-color
+    
+    textarea
+        height: 10em
+        margin-bottom: 10px
+
+        
+
+    .contact-info-group
+        label
+            width: 50%
+            padding-right: 10px
+            float: left    
+            +box-sizing(border-box)
+
+    label
+        display: block
+        margin-top: 20px
+        margin-bottom: 1px
+        color: rgba(0,0,0,0.5)
+
+        span
+            display: block
+    .submit-wrap
+        text-align: right
+    button
+        background: $accent
+        color: white
+        font-size: 18px
+        text-transform: uppercase
+        border: 3px solid $accent
+        width: 100%
+        +box-sizing(border-box)
+        Padding: 10px
+        width: 33%
+        +transition()
+        position: center
+        
+        &:hover
+            background: $accent-color
+            +transform(scale(1.2))
