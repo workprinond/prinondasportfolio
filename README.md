@@ -1,1 +1,0 @@
-Prinon eta dekhabi na
