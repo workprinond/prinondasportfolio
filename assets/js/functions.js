@@ -16,11 +16,7 @@ function smoothscroll (duration) {
       }
   });
 }
-// $( document ).ready(function() {
 
-//   //  
-
-// });
 
    
 (function( $ ){
